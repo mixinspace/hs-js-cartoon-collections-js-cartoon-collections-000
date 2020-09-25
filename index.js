@@ -46,11 +46,12 @@ function findTheCheese(foods) {
 
 // words with b
 // [max, henna, bob, ben, am]
-function wordWithB(words);{
+function wordWithB(words){
   var state = [];
   for (var i = 0; i < words.length; i++) {
     if (words[i].startWith("B")) {
-      state.push(words[i])
+      state.push(words[i]);
     }
   }
+  return state;
 }
